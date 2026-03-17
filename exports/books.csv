@@ -1,0 +1,67 @@
+id,name,slug,testament,book_order,chapter_count
+1,Genesis,genesis,OT,1,50
+2,Exodus,exodus,OT,2,40
+3,Leviticus,leviticus,OT,3,27
+4,Numbers,numbers,OT,4,36
+5,Deuteronomy,deuteronomy,OT,5,34
+6,Joshua,joshua,OT,6,24
+7,Judges,judges,OT,7,21
+8,Ruth,ruth,OT,8,4
+9,1 Samuel,1-samuel,OT,9,31
+10,2 Samuel,2-samuel,OT,10,24
+11,1 Kings,1-kings,OT,11,22
+12,2 Kings,2-kings,OT,12,25
+13,1 Chronicles,1-chronicles,OT,13,29
+14,2 Chronicles,2-chronicles,OT,14,36
+15,Ezra,ezra,OT,15,10
+16,Nehemiah,nehemiah,OT,16,13
+17,Esther,esther,OT,17,10
+18,Job,job,OT,18,42
+19,Psalms,psalms,OT,19,150
+20,Proverbs,proverbs,OT,20,31
+21,Ecclesiastes,ecclesiastes,OT,21,12
+22,Song of Solomon,song-of-solomon,OT,22,8
+23,Isaiah,isaiah,OT,23,66
+24,Jeremiah,jeremiah,OT,24,52
+25,Lamentations,lamentations,OT,25,5
+26,Ezekiel,ezekiel,OT,26,48
+27,Daniel,daniel,OT,27,12
+28,Hosea,hosea,OT,28,14
+29,Joel,joel,OT,29,3
+30,Amos,amos,OT,30,9
+31,Obadiah,obadiah,OT,31,1
+32,Jonah,jonah,OT,32,4
+33,Micah,micah,OT,33,7
+34,Nahum,nahum,OT,34,3
+35,Habakkuk,habakkuk,OT,35,3
+36,Zephaniah,zephaniah,OT,36,3
+37,Haggai,haggai,OT,37,2
+38,Zechariah,zechariah,OT,38,14
+39,Malachi,malachi,OT,39,4
+40,Matthew,matthew,NT,40,28
+41,Mark,mark,NT,41,16
+42,Luke,luke,NT,42,24
+43,John,john,NT,43,21
+44,Acts,acts,NT,44,28
+45,Romans,romans,NT,45,16
+46,1 Corinthians,1-corinthians,NT,46,16
+47,2 Corinthians,2-corinthians,NT,47,13
+48,Galatians,galatians,NT,48,6
+49,Ephesians,ephesians,NT,49,6
+50,Philippians,philippians,NT,50,4
+51,Colossians,colossians,NT,51,4
+52,1 Thessalonians,1-thessalonians,NT,52,5
+53,2 Thessalonians,2-thessalonians,NT,53,3
+54,1 Timothy,1-timothy,NT,54,6
+55,2 Timothy,2-timothy,NT,55,4
+56,Titus,titus,NT,56,3
+57,Philemon,philemon,NT,57,1
+58,Hebrews,hebrews,NT,58,13
+59,James,james,NT,59,5
+60,1 Peter,1-peter,NT,60,5
+61,2 Peter,2-peter,NT,61,3
+62,1 John,1-john,NT,62,5
+63,2 John,2-john,NT,63,1
+64,3 John,3-john,NT,64,1
+65,Jude,jude,NT,65,1
+66,Revelation,revelation,NT,66,22
