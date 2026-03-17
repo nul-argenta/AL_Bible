@@ -1,0 +1,159 @@
+=== SELF-REFERENCING CROSS-REFS (all 45) ===
+  [55196] 1 Samuel 2:1 → ITSELF (votes: 3)
+  [66308] 1 Chronicles 6:4 → ITSELF (votes: 2)
+  [67909] 1 Chronicles 16:8 → ITSELF (votes: 7)
+  [146767] Isaiah 38:1 → ITSELF (votes: 21)
+  [146986] Isaiah 39:1 → ITSELF (votes: 3)
+  [167061] Jeremiah 31:31 → ITSELF (votes: 38)
+  [172996] Jeremiah 51:15 → ITSELF (votes: 4)
+  [178948] Ezekiel 14:7 → ITSELF (votes: 2)
+  [211619] Matthew 5:3 → ITSELF (votes: 36)
+  [215791] Matthew 12:31 → ITSELF (votes: 8)
+  [216064] Matthew 13:1 → ITSELF (votes: 6)
+  [217505] Matthew 15:29 → ITSELF (votes: 3)
+  [218128] Matthew 17:14 → ITSELF (votes: 1)
+  [218668] Matthew 19:1 → ITSELF (votes: 4)
+  [219372] Matthew 20:25 → ITSELF (votes: 13)
+  [220038] Matthew 22:2 → ITSELF (votes: 1)
+  [220663] Matthew 23:13 → ITSELF (votes: 4)
+  [220790] Matthew 23:34 → ITSELF (votes: 3)
+  [221691] Matthew 25:14 → ITSELF (votes: 13)
+  [222867] Matthew 26:63 → ITSELF (votes: 2)
+  [223998] Mark 1:16 → ITSELF (votes: 2)
+  [224762] Mark 3:28 → ITSELF (votes: 5)
+  [225729] Mark 6:14 → ITSELF (votes: 4)
+  [228072] Mark 12:1 → ITSELF (votes: 1)
+  [229499] Mark 14:61 → ITSELF (votes: 1)
+  [231949] Luke 3:23 → ITSELF (votes: 2)
+  [233064] Luke 6:20 → ITSELF (votes: 11)
+  [233612] Luke 7:1 → ITSELF (votes: 4)
+  [233964] Luke 7:37 → ITSELF (votes: 5)
+  [234836] Luke 9:10 → ITSELF (votes: 2)
+  [235183] Luke 9:43 → ITSELF (votes: 5)
+  [235373] Luke 9:57 → ITSELF (votes: 8)
+  [235495] Luke 10:4 → ITSELF (votes: 5)
+  [237691] Luke 14:16 → ITSELF (votes: 4)
+  [237929] Luke 15:4 → ITSELF (votes: 7)
+  [239666] Luke 19:12 → ITSELF (votes: 5)
+  [243047] John 1:40 → ITSELF (votes: 4)
+  [245450] John 6:15 → ITSELF (votes: 6)
+  [259691] Acts 11:5 → ITSELF (votes: 2)
+  [262316] Acts 16:10 → ITSELF (votes: 2)
+  [278382] 1 Corinthians 11:23 → ITSELF (votes: 13)
+  [290058] Ephesians 5:22 → ITSELF (votes: 16)
+  [302021] Titus 1:6 → ITSELF (votes: 4)
+  [319373] Revelation 8:7 → ITSELF (votes: 3)
+  [321617] Revelation 17:1 → ITSELF (votes: 9)
+
+=== COMMENTARY GAPS: Books with lowest coverage ===
+  Ecclesiastes: 0/222 (0%)
+  Song of Solomon: 0/117 (0%)
+  Isaiah: 0/1292 (0%)
+  Jeremiah: 0/1364 (0%)
+  Lamentations: 0/154 (0%)
+  Ezekiel: 0/1273 (0%)
+  Daniel: 0/357 (0%)
+  Hosea: 0/197 (0%)
+  Joel: 0/73 (0%)
+  Jude: 0/25 (0%)
+  1 Chronicles: 363/942 (38.5%)
+  2 Chronicles: 374/822 (45.5%)
+  Leviticus: 647/859 (75.3%)
+  Judges: 509/643 (79.2%)
+  Nehemiah: 327/406 (80.5%)
+
+=== COMMENTARY GAPS: Popular verses without commentary ===
+  John 3:16 — Commentary: ⚠ NO COMMENTARY | Cross-refs: 23
+  Psalms 23:1 — Commentary: ⚠ NO COMMENTARY | Cross-refs: 23
+  Psalms 23:4 — Commentary: ⚠ NO COMMENTARY | Cross-refs: 26
+  Psalms 46:10 — Commentary: ✓ | Cross-refs: 14
+  Psalms 119:105 — Commentary: ✓ | Cross-refs: 7
+  John 14:6 — Commentary: ✓ | Cross-refs: 56
+  John 1:1 — Commentary: ✓ | Cross-refs: 36
+  Matthew 28:19 — Commentary: ✓ | Cross-refs: 37
+  Matthew 6:9 — Commentary: ✓ | Cross-refs: 41
+  Jeremiah 29:11 — Commentary: ⚠ NO COMMENTARY | Cross-refs: 28
+  Philippians 4:13 — Commentary: ✓ | Cross-refs: 10
+  Joshua 1:9 — Commentary: ✓ | Cross-refs: 13
+  Isaiah 40:31 — Commentary: ⚠ NO COMMENTARY | Cross-refs: 35
+  Proverbs 3:5 — Commentary: ✓ | Cross-refs: 21
+  Romans 12:2 — Commentary: ✓ | Cross-refs: 57
+  Galatians 5:22 — Commentary: ✓ | Cross-refs: 38
+  Hebrews 11:1 — Commentary: ✓ | Cross-refs: 23
+  2 Timothy 3:16 — Commentary: ✓ | Cross-refs: 41
+  Revelation 21:4 — Commentary: ✓ | Cross-refs: 22
+  1 Corinthians 13:4 — Commentary: ✓ | Cross-refs: 52
+
+=== CROSS-REFS WITH IDENTICAL TEXT (potential copy errors) ===
+  Found: 20
+  Genesis 10:13 → 1 Chronicles 1:11: "Mizraim became the father of Ludim, Anamim, Lehabim, Naphtuhim,..."
+  Genesis 10:26 → 1 Chronicles 1:20: "Joktan became the father of Almodad, Sheleph, Hazarmaveth, Jerah,..."
+  Genesis 36:36 → 1 Chronicles 1:47: "Hadad died, and Samlah of Masrekah reigned in his place...."
+  Genesis 46:11 → 1 Chronicles 6:1: "The sons of Levi: Gershon, Kohath, and Merari...."
+  Exodus 14:1 → Exodus 13:1: "The LORD spoke to Moses, saying,..."
+  Exodus 20:2 → Deuteronomy 5:6: "“I am the LORD your God, who brought you out of the land of Egypt, out of the ho..."
+  Exodus 20:3 → Deuteronomy 5:7: "“You shall have no other gods before me...."
+  Exodus 20:13 → Deuteronomy 5:17: "“You shall not murder...."
+  Exodus 20:14 → Deuteronomy 5:18: "“You shall not commit adultery...."
+  Leviticus 2:3 → Leviticus 2:10: "That which is left of the meal offering shall be Aaron’s and his sons’. It is a ..."
+  Leviticus 2:10 → Leviticus 2:3: "That which is left of the meal offering shall be Aaron’s and his sons’. It is a ..."
+  Leviticus 3:4 → Leviticus 3:15: "and the two kidneys, and the fat that is on them, which is by the loins, and the..."
+  Leviticus 3:4 → Leviticus 3:10: "and the two kidneys, and the fat that is on them, which is by the loins, and the..."
+  Leviticus 3:10 → Leviticus 3:4: "and the two kidneys, and the fat that is on them, which is by the loins, and the..."
+  Leviticus 15:1 → Leviticus 13:1: "The LORD spoke to Moses and to Aaron, saying,..."
+  Numbers 24:15 → Numbers 24:3: "He took up his parable, and said, “Balaam the son of Beor says, the man whose ey..."
+  Numbers 35:1 → Numbers 33:50: "The LORD spoke to Moses in the plains of Moab by the Jordan at Jericho, saying,..."
+  Deuteronomy 5:6 → Exodus 20:2: "“I am the LORD your God, who brought you out of the land of Egypt, out of the ho..."
+  Deuteronomy 5:7 → Exodus 20:3: "“You shall have no other gods before me...."
+  Deuteronomy 5:17 → Exodus 20:13: "“You shall not murder...."
+
+=== COMMENTARY RELEVANCE CHECK (sample of 10 random) ===
+
+  2 Chronicles 26:8
+    VERSE: "The Ammonites gave tribute to Uzziah. His name spread abroad even to the entrance of Egypt, for he grew exceedingly strong."
+    COMMENTARY: "Verses 1–15 As long as Uzziah sought the Lord, and minded religion, God made him to prosper. Those only prosper whom God makes to prosper; for prosperity is his gift. Many have owned, that as long as they sought the Lord, and kept close to their duty, they prospered; but when they forsook God, every"
+
+  Exodus 12:14
+    VERSE: "This day shall be a memorial for you. You shall keep it as a feast to the LORD. You shall keep it as a feast throughout your generations by an ordinan"
+    COMMENTARY: "Verses 1–20 The Lord makes all things new to those whom he delivers from the bondage of Satan, and takes to himself to be his people. The time when he does this is to them the beginning of a new life. God appointed that, on the night wherein they were to go out of Egypt, each family should kill a la"
+
+  Deuteronomy 24:3
+    VERSE: "If the latter husband hates her, and writes her a certificate of divorce, puts it in her hand, and sends her out of his house; or if the latter husban"
+    COMMENTARY: "Verses 1–4 Where the providence of God, or his own wrong choice in marriage, has allotted to a Christian a trial instead of a help meet; he will from his heart prefer bearing the cross, to such relief as tends to sin, confusion, and misery. Divine grace will sanctify this cross, support under it, an"
+
+  Matthew 26:6
+    VERSE: "Now when Yeshua was in Bethany, in the house of Simon the leper,"
+    COMMENTARY: "Verses 6–13 The pouring ointment upon the head of Christ was a token of the highest respect. Where there is true love in the heart to Jesus Christ, nothing will be thought too good to bestow upon him. The more Christ's servants and their services are cavilled at, the more he manifests his acceptance"
+
+  2 Kings 17:29
+    VERSE: "However every nation made gods of their own, and put them in the houses of the high places which the Samaritans had made, every nation in their cities"
+    COMMENTARY: "Verses 24–41 The terror of the Almighty will sometimes produce a forced or feigned submission in unconverted men; like those brought from different countries to inhabit Israel. But such will form unworthy thoughts of God, will expect to please him by outward forms, and will vainly try to reconcile h"
+
+  Matthew 26:9
+    VERSE: "For this ointment might have been sold for much and given to the poor.”"
+    COMMENTARY: "Verses 6–13 The pouring ointment upon the head of Christ was a token of the highest respect. Where there is true love in the heart to Jesus Christ, nothing will be thought too good to bestow upon him. The more Christ's servants and their services are cavilled at, the more he manifests his acceptance"
+
+  1 Chronicles 29:24
+    VERSE: "All the princes, the mighty men, and also all of the sons of King David submitted themselves to Solomon the king."
+    COMMENTARY: "Verses 20–25 This great assembly joined with David in adoring God. Whoever is the mouth of the congregation, those only have the benefit who join him, not by bowing down the head, so much as by lifting up the soul. Solomon sat on the throne of the Lord. Solomon's kingdom typified the kingdom of the "
+
+  Genesis 3:19
+    VERSE: "You will eat bread by the sweat of your face until you return to the ground, for you were taken out of it. For you are dust, and you shall return to d"
+    COMMENTARY: "Verses 16–19 The woman, for her sin, is condemned to a state of sorrow, and of subjection; proper punishments of that sin, in which she had sought to gratify the desire of her eye, and of the flesh, and her pride. Sin brought sorrow into the world; that made the world a vale of tears. No wonder our "
+
+  2 Corinthians 8:1
+    VERSE: "Moreover, brothers, we make known to you the grace of God which has been given in the assemblies of Macedonia,"
+    COMMENTARY: "Verses 1–6 The grace of God must be owned as the root and fountain of all the good in us, or done by us, at any time. It is great grace and favour from God, if we are made useful to others, and forward to any good work. He commends the charity of the Macedonians. So far from needing that Paul should"
+
+  Matthew 2:10
+    VERSE: "When they saw the star, they rejoiced with exceedingly great joy."
+    COMMENTARY: "Verses 9–12 What joy these wise men felt upon this sight of the star, none know so well as those who, after a long and melancholy night of temptation and desertion, under the power of a spirit of bondage, at length receive the Spirit of adoption, witnessing with their spirits that they are the child"
+
+=== OT→NT AND NT→OT CROSS-REFS ===
+  OT → NT: 41062
+  NT → OT: 29079
+
+=== VERSES WITH ZERO CROSS-REFS ===
+  Verses with no cross-refs: 3248 / 31098
+
+=== DEEP AUDIT COMPLETE ===

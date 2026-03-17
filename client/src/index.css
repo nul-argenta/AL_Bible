@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── ARMOR & LIGHT + LOVABLE UNIFIED DESIGN TOKENS ─────────────────── */
+
+:root {
+    /* Lovable Stealth Stone Palette (Default) */
+    --background: 0 0% 10%;
+    --foreground: 40 7% 87%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 40 7% 87%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 40 7% 87%;
+
+    --primary: 40 7% 87%;
+    --primary-foreground: 0 0% 10%;
+
+    --secondary: 0 0% 16%;
+    --secondary-foreground: 40 7% 87%;
+
+    --muted: 0 0% 16%;
+    --muted-foreground: 40 4% 55%;
+
+    --accent: 0 0% 20%;
+    --accent-foreground: 40 7% 87%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 40 7% 87%;
+
+    --radius: 0.5rem;
+
+    /* Brand tokens */
+    --charcoal: 0 0% 10%;
+    --charcoal-deep: 0 0% 7%;
+    --limestone: 40 7% 87%;
+    --limestone-muted: 40 4% 55%;
+    --reflective: 0 0% 78%;
+    --reflective-bright: 0 0% 95%;
+    --flash-glow: 195 100% 80%;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 40 7% 87%;
+    --sidebar-primary: 40 7% 87%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 0 0% 16%;
+    --sidebar-accent-foreground: 40 7% 87%;
+    --sidebar-border: 0 0% 20%;
+    --sidebar-ring: 40 7% 87%;
+
+    /* Scripture-specific (Legacy) */
+    --scripture-bg: 40 30% 96%;
+    --scripture-border: 35 20% 85%;
+    --hebrew-color: 220 40% 35%;
+    --greek-color: 260 35% 40%;
+    --strongs-color: 40 70% 45%;
+    --cross-ref-color: 200 60% 42%;
+}
+
+/* ─── BIBLE APP THEME (LEGACY) ───────────────────────────────────────── */
+.bible-theme {
+    --background: 40 20% 97%;
+    --foreground: 30 10% 12%;
+    --card: 40 20% 95%;
+    --card-foreground: 30 10% 12%;
+    --popover: 40 20% 97%;
+    --popover-foreground: 30 10% 12%;
+    --muted: 35 15% 90%;
+    --muted-foreground: 30 8% 46%;
+    --accent: 40 60% 50%;
+    --accent-foreground: 40 5% 98%;
+    --primary: 220 20% 18%;
+    --primary-foreground: 40 20% 97%;
+    --secondary: 35 15% 88%;
+    --secondary-foreground: 30 10% 20%;
+    --border: 35 15% 82%;
+    --input: 35 15% 82%;
+    --ring: 40 60% 50%;
+}
+
+@layer base {
+
+    html,
+    body,
+    #root {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'JetBrains Mono', monospace;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transition: background-color 0.35s ease, color 0.35s ease;
+    }
+
+    /* Soul typography - serif for scripture & emotional copy */
+    .font-soul {
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    /* Body typography - mono for technical/tactical */
+    .font-tactical {
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    .font-clean {
+        font-family: 'Inter', sans-serif;
+    }
+
+    /* Smooth theme colour transitions on common surfaces */
+    header,
+    main,
+    nav,
+    aside,
+    footer,
+    .bg-background,
+    .bg-card,
+    .bg-muted,
+    [class*="bg-"] {
+        transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease;
+    }
+}
+
+/* ─── TYPOGRAPHY ──────────────────────────────────────────────────── */
+.font-scripture {
+    font-family: "Crimson Pro", "Georgia", serif;
+    font-size: 1.125rem;
+    line-height: 1.85;
+    letter-spacing: 0.01em;
+}
+
+.font-hebrew {
+    font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+    direction: rtl;
+    font-size: 1.3rem;
+    line-height: 2;
+    color: hsl(var(--hebrew-color));
+}
+
+.font-greek {
+    font-family: "SBL Greek", "Gentium Plus", "Times New Roman", serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: hsl(var(--greek-color));
+}
+
+.font-mono-study {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.85rem;
+}
+
+/* ─── SCRIPTURE BLOCK ─────────────────────────────────────────────── */
+.scripture-block {
+    background: hsl(var(--scripture-bg));
+    border: 1px solid hsl(var(--scripture-border));
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    position: relative;
+}
+
+.verse-number {
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: hsl(var(--accent));
+    vertical-align: super;
+    margin-right: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.verse-number:hover {
+    text-decoration: underline;
+}
+
+/* ─── STRONGS HIGHLIGHT ───────────────────────────────────────────── */
+.strongs-word {
+    color: hsl(var(--strongs-color));
+    cursor: pointer;
+    border-bottom: 1px dashed hsl(var(--strongs-color) / 0.4);
+    transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.strongs-word:hover {
+    background: hsl(var(--strongs-color) / 0.1);
+    border-bottom-style: solid;
+}
+
+/* ─── CROSS-REFERENCE LINK ────────────────────────────────────────── */
+.cross-ref {
+    color: hsl(var(--cross-ref-color));
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.cross-ref:hover {
+    color: hsl(var(--accent));
+    text-decoration: underline;
+}
+
+/* ─── SIDEBAR / PANEL ─────────────────────────────────────────────── */
+.study-panel {
+    background: hsl(var(--card));
+    border-left: 1px solid hsl(var(--border));
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* ─── SCROLLBAR ───────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+}
+
+/* ─── FADE-IN ANIMATIONS ─────────────────────────────────────────── */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* ─── UTILITIES ───────────────────────────────────────────────────── */
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+
+    /* Reflective flash pulse on hero */
+    @keyframes reflective-pulse {
+
+        0%,
+        100% {
+            opacity: 0;
+        }
+
+        40% {
+            opacity: 0.6;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        60% {
+            opacity: 0.6;
+        }
+    }
+
+    .reflective-flash-overlay {
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at 50% 45%, hsl(0 0% 100% / 0.35) 0%, transparent 40%);
+        opacity: 0;
+        animation: reflective-pulse 5s ease-in-out infinite;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+
+    /* 3M Flash effect */
+    .flash-active {
+        animation: flash-pulse 0.15s ease-out;
+    }
+
+    @keyframes flash-pulse {
+        0% {
+            filter: brightness(1);
+        }
+
+        50% {
+            filter: brightness(3) contrast(1.5);
+        }
+
+        100% {
+            filter: brightness(1);
+        }
+    }
+
+    .text-reflective {
+        color: hsl(var(--reflective));
+    }
+
+    .text-reflective-bright {
+        color: hsl(var(--reflective-bright));
+    }
+
+    .bg-charcoal-deep {
+        background-color: hsl(var(--charcoal-deep));
+    }
+
+    .text-limestone {
+        color: hsl(var(--limestone));
+    }
+
+    .text-limestone-muted {
+        color: hsl(var(--limestone-muted));
+    }
+
+    /* Reflective glow for 3M elements */
+    .glow-3m {
+        text-shadow: 0 0 20px hsl(var(--flash-glow) / 0.8),
+            0 0 40px hsl(var(--flash-glow) / 0.4),
+            0 0 80px hsl(var(--flash-glow) / 0.2);
+    }
+
+    .glow-3m-box {
+        box-shadow: 0 0 30px hsl(var(--flash-glow) / 0.6),
+            0 0 60px hsl(var(--flash-glow) / 0.3),
+            inset 0 0 30px hsl(var(--flash-glow) / 0.1);
+    }
+
+    /* Sanctuary gradient transition */
+    .sanctuary-gradient {
+        background: linear-gradient(180deg,
+                hsl(var(--charcoal-deep)) 0%,
+                hsl(0 0% 14%) 30%,
+                hsl(35 8% 22%) 60%,
+                hsl(38 10% 30%) 100%);
+    }
+
+    /* Noise texture overlay */
+    .noise-overlay::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: 0.03;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        pointer-events: none;
+    }
+
+    /* Flashcard 3D flip utilities */
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+
+    .transform-style-preserve-3d {
+        transform-style: preserve-3d;
+    }
+
+    .rotate-y-180 {
+        transform: rotateY(180deg);
+    }
+
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+}

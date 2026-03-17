@@ -1,0 +1,442 @@
+=== DATA VOLUME ===
+  verses: 31098
+  books: 66
+  cross_references: 323445
+  commentaries: 23982
+  book_introductions: 66
+  strongs_definitions: 14197
+
+=== CROSS-REFERENCE SAMPLE (first 30) ===
+  [1] Genesis 1:1 → Jeremiah 51:15 (votes: 83)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "“He has made the earth by his power. He has established the world by his wisdom...."
+  [2] Genesis 1:1 → Isaiah 51:16 (votes: 55)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "I have put my words in your mouth and have covered you in the shadow of my hand,..."
+  [3] Genesis 1:1 → Proverbs 16:4 (votes: 60)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "The LORD has made everything for its own end— yes, even the wicked for the day o..."
+  [4] Genesis 1:1 → Romans 11:36 (votes: 57)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "For of him and through him and to him are all things. To him be the glory for ev..."
+  [5] Genesis 1:1 → Psalms 96:5 (votes: 58)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "For all the gods of the peoples are idols, but the LORD made the heavens...."
+  [6] Genesis 1:1 → Psalms 33:6 (votes: 61)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "By the LORD’s word, the heavens were made: all their army by the breath of his m..."
+  [7] Genesis 1:1 → 1 John 1:1 (votes: 54)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "That which was from the beginning, that which we have heard, that which we have ..."
+  [8] Genesis 1:1 → Acts 17:24 (votes: 125)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "The God who made the world and all things in it, he, being Lord of heaven and ea..."
+  [9] Genesis 1:1 → Isaiah 42:5 (votes: 152)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "God the LORD, he who created the heavens and stretched them out, he who spread o..."
+  [10] Genesis 1:1 → Job 26:13 (votes: 37)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "By his Spirit the heavens are garnished. His hand has pierced the swift serpent...."
+  [11] Genesis 1:1 → Revelation 10:6 (votes: 57)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "and swore by him who lives forever and ever, who created heaven and the things t..."
+  [12] Genesis 1:1 → Psalms 121:2 (votes: 61)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "My help comes from the LORD, who made heaven and earth...."
+  [13] Genesis 1:1 → Isaiah 44:24 (votes: 92)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "The LORD, your Redeemer, and he who formed you from the womb says: “I am the LOR..."
+  [14] Genesis 1:1 → Revelation 3:14 (votes: 41)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "“To the angel of the assembly in Laodicea write: “The Amen, the Faithful and Tru..."
+  [15] Genesis 1:1 → Isaiah 65:17 (votes: 52)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "“For, behold, I create new heavens and a new earth; and the former things will n..."
+  [16] Genesis 1:1 → Jeremiah 10:12 (votes: 71)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "God has made the earth by his power. He has established the world by his wisdom,..."
+  [17] Genesis 1:1 → Proverbs 8:22 (votes: 72)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "“The LORD possessed me in the beginning of his work, before his deeds of old...."
+  [18] Genesis 1:1 → Hebrews 11:3 (votes: 263)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "By faith we understand that the universe has been framed by the word of God, so ..."
+  [19] Genesis 1:1 → Nehemiah 9:6 (votes: 96)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "You are the LORD, even you alone. You have made heaven, the heaven of heavens, w..."
+  [20] Genesis 1:1 → Psalms 134:3 (votes: 55)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "May the LORD bless you from Zion, even he who made heaven and earth...."
+  [21] Genesis 1:1 → Ephesians 3:9 (votes: 49)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "and to make all men see what is the administration of the mystery which for ages..."
+  [22] Genesis 1:1 → Revelation 21:6 (votes: 54)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "He said to me, “I am the Alef and the Tav, the Beginning and the End. I will giv..."
+  [23] Genesis 1:1 → Mark 13:19 (votes: 53)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "For in those days there will be oppression, such as there has not been the like ..."
+  [24] Genesis 1:1 → Revelation 22:13 (votes: 55)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "I am the Alef and the Tav, the First and the Last, the Beginning and the End...."
+  [25] Genesis 1:1 → Psalms 136:5 (votes: 72)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "to him who by understanding made the heavens, for his loving kindness endures fo..."
+  [26] Genesis 1:1 → Psalms 115:15 (votes: 75)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "Blessed are you by the LORD, who made heaven and earth...."
+  [27] Genesis 1:1 → Hebrews 3:4 (votes: 61)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "For every house is built by someone; but he who built all things is God...."
+  [28] Genesis 1:1 → Isaiah 40:28 (votes: 60)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "Haven’t you known? Haven’t you heard? The everlasting God, the LORD, the Creator..."
+  [29] Genesis 1:1 → Exodus 20:11 (votes: 147)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "for in six days the LORD made heaven and earth, the sea, and all that is in them..."
+  [30] Genesis 1:1 → Psalms 89:11 (votes: 60)
+    FROM: "In the beginning, God created the heavens and the earth...."
+    TO:   "The heavens are yours. The earth also is yours, the world and its fullness. You ..."
+
+=== SELF-REFERENCING CROSS-REFS ===
+  Count: 45
+
+=== ORPHAN CROSS-REFS (broken verse IDs) ===
+  Orphan from_verse_id: 0
+  Orphan to_verse_id: 0
+
+=== DUPLICATE CROSS-REFS ===
+  Duplicate pairs found: 0
+
+=== CROSS-REF DISTRIBUTION (top 15 source books) ===
+  Psalms: 30545
+  Isaiah: 19788
+  Jeremiah: 17764
+  Matthew: 13595
+  Ezekiel: 13246
+  Acts: 13083
+  Genesis: 13061
+  Luke: 12198
+  John: 11708
+  Exodus: 9753
+  Job: 9442
+  Proverbs: 9420
+  Deuteronomy: 8875
+  Numbers: 7629
+  Romans: 7603
+
+=== COMMENTARY SAMPLE (first 20) ===
+  [1] Genesis 1:1 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "In the beginning, God created the heavens and the earth...."
+    NOTE:  "Verses 1, 2 The first verse of the Bible gives us a satisfying and useful account of the origin of the earth and the heavens. The faith of humble Christians understands this better than the fancy of t..."
+
+  [2] Genesis 1:2 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "The earth was formless and empty. Darkness was on the surface of the deep and Go..."
+    NOTE:  "Verses 1, 2 The first verse of the Bible gives us a satisfying and useful account of the origin of the earth and the heavens. The faith of humble Christians understands this better than the fancy of t..."
+
+  [3] Genesis 1:3 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God said, “Let there be light,” and there was light...."
+    NOTE:  "Verses 3–5 God said, Let there be light; he willed it, and at once there was light. Oh, the power of the word of God! And in the new creation, the first thing that is wrought in the soul is light: the..."
+
+  [4] Genesis 1:4 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God saw the light, and saw that it was good. God divided the light from the dark..."
+    NOTE:  "Verses 3–5 God said, Let there be light; he willed it, and at once there was light. Oh, the power of the word of God! And in the new creation, the first thing that is wrought in the soul is light: the..."
+
+  [5] Genesis 1:5 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God called the light “day”, and the darkness he called “night”. There was evenin..."
+    NOTE:  "Verses 3–5 God said, Let there be light; he willed it, and at once there was light. Oh, the power of the word of God! And in the new creation, the first thing that is wrought in the soul is light: the..."
+
+  [6] Genesis 1:6 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God said, “Let there be an expanse in the middle of the waters, and let it divid..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [7] Genesis 1:7 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God made the expanse, and divided the waters which were under the expanse from t..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [8] Genesis 1:8 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God called the expanse “sky”. There was evening and there was morning, a second ..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [9] Genesis 1:9 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God said, “Let the waters under the sky be gathered together to one place, and l..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [10] Genesis 1:10 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God called the dry land “earth”, and the gathering together of the waters he cal..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [11] Genesis 1:11 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God said, “Let the earth yield grass, herbs yielding seeds, and fruit trees bear..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [12] Genesis 1:12 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "The earth yielded grass, herbs yielding seed after their kind, and trees bearing..."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [13] Genesis 1:13 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "There was evening and there was morning, a third day...."
+    NOTE:  "Verses 6–13 The earth was emptiness, but by a word spoken, it became full of God's riches, and his they are still. Though the use of them is allowed to man, they are from God, and to his service and h..."
+
+  [14] Genesis 1:14 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God said, “Let there be lights in the expanse of the sky to divide the day from ..."
+    NOTE:  "Verses 14–19 In the fourth day's work, the creation of the sun, moon, and stars is accounted for. All these are the works of God. The stars are spoken of as they appear to our eyes, without telling th..."
+
+  [15] Genesis 1:15 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "and let them be for lights in the expanse of the sky to give light on the earth;..."
+    NOTE:  "Verses 14–19 In the fourth day's work, the creation of the sun, moon, and stars is accounted for. All these are the works of God. The stars are spoken of as they appear to our eyes, without telling th..."
+
+  [16] Genesis 1:16 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God made the two great lights: the greater light to rule the day, and the lesser..."
+    NOTE:  "Verses 14–19 In the fourth day's work, the creation of the sun, moon, and stars is accounted for. All these are the works of God. The stars are spoken of as they appear to our eyes, without telling th..."
+
+  [17] Genesis 1:17 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God set them in the expanse of the sky to give light to the earth,..."
+    NOTE:  "Verses 14–19 In the fourth day's work, the creation of the sun, moon, and stars is accounted for. All these are the works of God. The stars are spoken of as they appear to our eyes, without telling th..."
+
+  [18] Genesis 1:18 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "and to rule over the day and over the night, and to divide the light from the da..."
+    NOTE:  "Verses 14–19 In the fourth day's work, the creation of the sun, moon, and stars is accounted for. All these are the works of God. The stars are spoken of as they appear to our eyes, without telling th..."
+
+  [19] Genesis 1:19 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "There was evening and there was morning, a fourth day...."
+    NOTE:  "Verses 14–19 In the fourth day's work, the creation of the sun, moon, and stars is accounted for. All these are the works of God. The stars are spoken of as they appear to our eyes, without telling th..."
+
+  [20] Genesis 1:20 — Author: Matthew Henry (Concise Commentary)
+    VERSE: "God said, “Let the waters abound with living creatures, and let birds fly above ..."
+    NOTE:  "Verses 20–25 God commanded the fish and fowl to be produced. This command he himself executed. Insects, which are more numerous than the birds and beasts, and as curious, seem to have been part of thi..."
+
+
+=== COMMENTARY AUTHORS ===
+  Matthew Henry: 23982
+
+=== COMMENTARY COVERAGE ===
+  Verses with commentary: 23955 / 31098 (77.0%)
+
+=== EMPTY/BLANK COMMENTARIES ===
+  Empty/blank: 0
+
+=== SPOT CHECK: Well-known verse cross-refs ===
+
+  John 3:16 (id=26578) has 23 cross-refs:
+    → 2 Thessalonians 2:16: "Now our Lord Yeshua the Messiah himself, and God our Father, who loved us and gave us eternal comfor..."
+    → Mark 12:6: "Therefore still having one, his beloved son, he sent him last to them, saying, ‘They will respect my..."
+    → John 3:36: "One who believes in the Son has eternal life, but one who disobeys the Son won’t see life, but the w..."
+    → Romans 5:10: "For if while we were enemies, we were reconciled to God through the death of his Son, much more, bei..."
+    → John 6:40: "This is the will of the one who sent me, that everyone who sees the Son and believes in him should h..."
+    → 1 Timothy 1:15: "The saying is faithful and worthy of all acceptance, that Messiah Yeshua came into the world to save..."
+    → Matthew 9:13: "But you go and learn what this means: ‘I desire mercy, and not sacrifice,’ for I came not to call th..."
+    → Romans 8:32: "He who didn’t spare his own Son, but delivered him up for us all, how would he not also with him fre..."
+    → Ephesians 2:4: "But God, being rich in mercy, for his great love with which he loved us,..."
+    → Genesis 22:12: "He said, “Don’t lay your hand on the boy or do anything to him. For now I know that you fear God, si..."
+    → Titus 3:4: "But when the kindness of God our Savior and his love toward mankind appeared,..."
+    → Romans 5:8: "But God commends his own love toward us, in that while we were yet sinners, Messiah died for us...."
+    → John 3:15: "that whoever believes in him should not perish, but have eternal life...."
+    → 2 Corinthians 5:19: "namely, that God was in Messiah reconciling the world to himself, not reckoning to them their trespa..."
+    → Revelation 1:5: "and from Yeshua the Messiah, the faithful witness, the firstborn of the dead, and the ruler of the k..."
+    → John 1:14: "The Word became flesh and lived among us. We saw his glory, such glory as of the only born Son of th..."
+    → 1 John 4:19: "We love him, because he first loved us...."
+    → John 1:18: "No one has seen God at any time. The only born Son, who is in the bosom of the Father, has declared ..."
+    → Luke 2:14: "“Glory to God in the highest, on earth peace, good will toward men.”..."
+    → John 1:29: "The next day, he saw Yeshua coming to him, and said, “Behold, the Lamb of God, who takes away the si..."
+    → John 11:25: "Yeshua said to her, “I am the resurrection and the life. He who believes in me will still live, even..."
+    → John 10:28: "I give eternal life to them. They will never perish, and no one will snatch them out of my hand...."
+    → 1 John 4:9: "By this God’s love was revealed in us, that God has sent his only born Son into the world that we mi..."
+
+  Romans 8:28 (id=28316) has 43 cross-refs:
+    → 2 Thessalonians 1:5: "This is an obvious sign of the righteous judgment of God, to the end that you may be counted worthy ..."
+    → Philippians 1:19: "For I know that this will turn out to my salvation through your prayers and the supply of the Spirit..."
+    → Jeremiah 24:5: "“The LORD, the God of Israel says: ‘Like these good figs, so I will regard the captives of Judah, wh..."
+    → Deuteronomy 8:2: "You shall remember all the way which the LORD your God has led you these forty years in the wilderne..."
+    → Romans 8:35: "Who shall separate us from the love of Messiah? Could oppression, or anguish, or persecution, or fam..."
+    → 1 John 4:10: "In this is love, not that we loved God, but that he loved us, and sent his Son as the atoning sacrif..."
+    → Nehemiah 1:5: "and said, “I beg you, LORD, the God of heaven, the great and awesome God who keeps covenant and lovi..."
+    → 1 Peter 5:10: "But may the God of all grace, who called you to his eternal glory by Messiah Yeshua, after you have ..."
+    → Revelation 3:19: "As many as I love, I reprove and chasten. Be zealous therefore, and repent...."
+    → Romans 9:11: "For being not yet born, neither having done anything good or bad, that the purpose of God according ..."
+    → Psalms 46:1: "For the Chief Musician. By the sons of Korah. According to Alamoth. God is our refuge and strength, ..."
+    → Romans 5:3: "Not only this, but we also rejoice in our sufferings, knowing that suffering produces perseverance;..."
+    → Deuteronomy 6:5: "You shall love the LORD your God with all your heart, with all your soul, and with all your might...."
+    → Genesis 50:20: "As for you, you meant evil against me, but God meant it for good, to save many people alive, as is h..."
+    → 2 Corinthians 5:1: "For we know that if the earthly house of our tent is dissolved, we have a building from God, a house..."
+    → Ephesians 1:9: "making known to us the mystery of his will, according to his good pleasure which he purposed in him..."
+    → Mark 12:30: "You shall love the Lord your God with all your heart, with all your soul, with all your mind, and wi..."
+    → 1 John 4:19: "We love him, because he first loved us...."
+    → 1 Corinthians 1:9: "God is faithful, through whom you were called into the fellowship of his Son, Yeshua the Messiah our..."
+    → 1 Peter 1:7: "that the proof of your faith, which is more precious than gold that perishes, even though it is test..."
+    → Galatians 1:15: "But when it was the good pleasure of God, who separated me from my mother’s womb and called me throu..."
+    → Romans 1:6: "among whom you are also called to belong to Yeshua the Messiah;..."
+    → 2 Corinthians 4:15: "For all things are for your sakes, that the grace, being multiplied through the many, may cause the ..."
+    → Psalms 69:36: "The children also of his servants shall inherit it. Those who love his name shall dwell therein...."
+    → Jeremiah 51:29: "The land trembles and is in pain; for the purposes of the LORD against Babylon stand, to make the la..."
+    → 2 Thessalonians 2:13: "But we are bound to always give thanks to God for you, brothers loved by the Lord, because God chose..."
+    → Romans 9:23: "and that he might make known the riches of his glory on vessels of mercy, which he prepared beforeha..."
+    → Deuteronomy 8:16: "who fed you in the wilderness with manna, which your fathers didn’t know, that he might humble you, ..."
+    → James 2:5: "Listen, my beloved brothers. Didn’t God choose those who are poor in this world to be rich in faith ..."
+    → James 1:12: "Blessed is a person who endures temptation, for when he has been approved, he will receive the crown..."
+    → 1 Thessalonians 5:9: "For God didn’t appoint us to wrath, but to the obtaining of salvation through our Lord Yeshua the Me..."
+    → Hebrews 12:6: "for whom the Lord loves, he disciplines, and chastises every son whom he receives.”..."
+    → Romans 8:30: "Whom he predestined, those he also called. Whom he called, those he also justified. Whom he justifie..."
+    → James 1:3: "knowing that the testing of your faith produces endurance...."
+    → Zechariah 13:9: "I will bring the third part into the fire, and will refine them as silver is refined, and will test ..."
+    → Acts 13:48: "As the Gentiles heard this, they were glad and glorified the word of God. As many as were appointed ..."
+    → Exodus 20:6: "and showing loving kindness to thousands of those who love me and keep my commandments...."
+    → Ephesians 3:11: "according to the eternal purpose which he accomplished in Messiah Yeshua our Lord...."
+    → 2 Timothy 2:19: "However, God’s firm foundation stands, having this seal: “The Lord knows those who are his,” and, “L..."
+    → 2 Timothy 1:9: "who saved us and called us with a holy calling, not according to our works, but according to his own..."
+    → Galatians 5:8: "This persuasion is not from him who calls you...."
+    → 1 John 5:2: "By this we know that we love the children of God, when we love God and keep his commandments...."
+    → 1 Corinthians 2:9: "But as it is written, “Things which an eye didn’t see, and an ear didn’t hear, which didn’t enter in..."
+
+  Genesis 1:1 (id=1) has 62 cross-refs:
+    → Jeremiah 51:15: "“He has made the earth by his power. He has established the world by his wisdom. By his understandin..."
+    → Isaiah 51:16: "I have put my words in your mouth and have covered you in the shadow of my hand, that I may plant th..."
+    → Proverbs 16:4: "The LORD has made everything for its own end— yes, even the wicked for the day of evil...."
+    → Romans 11:36: "For of him and through him and to him are all things. To him be the glory for ever! Amen...."
+    → Psalms 96:5: "For all the gods of the peoples are idols, but the LORD made the heavens...."
+    → Psalms 33:6: "By the LORD’s word, the heavens were made: all their army by the breath of his mouth...."
+    → 1 John 1:1: "That which was from the beginning, that which we have heard, that which we have seen with our eyes, ..."
+    → Acts 17:24: "The God who made the world and all things in it, he, being Lord of heaven and earth, doesn’t dwell i..."
+    → Isaiah 42:5: "God the LORD, he who created the heavens and stretched them out, he who spread out the earth and tha..."
+    → Job 26:13: "By his Spirit the heavens are garnished. His hand has pierced the swift serpent...."
+    → Revelation 10:6: "and swore by him who lives forever and ever, who created heaven and the things that are in it, the e..."
+    → Psalms 121:2: "My help comes from the LORD, who made heaven and earth...."
+    → Isaiah 44:24: "The LORD, your Redeemer, and he who formed you from the womb says: “I am the LORD, who makes all thi..."
+    → Revelation 3:14: "“To the angel of the assembly in Laodicea write: “The Amen, the Faithful and True Witness, the Begin..."
+    → Isaiah 65:17: "“For, behold, I create new heavens and a new earth; and the former things will not be remembered, no..."
+    → Jeremiah 10:12: "God has made the earth by his power. He has established the world by his wisdom, and by his understa..."
+    → Proverbs 8:22: "“The LORD possessed me in the beginning of his work, before his deeds of old...."
+    → Hebrews 11:3: "By faith we understand that the universe has been framed by the word of God, so that what is seen ha..."
+    → Nehemiah 9:6: "You are the LORD, even you alone. You have made heaven, the heaven of heavens, with all their army, ..."
+    → Psalms 134:3: "May the LORD bless you from Zion, even he who made heaven and earth...."
+    → Ephesians 3:9: "and to make all men see what is the administration of the mystery which for ages has been hidden in ..."
+    → Revelation 21:6: "He said to me, “I am the Alef and the Tav, the Beginning and the End. I will give freely to him who ..."
+    → Mark 13:19: "For in those days there will be oppression, such as there has not been the like from the beginning o..."
+    → Revelation 22:13: "I am the Alef and the Tav, the First and the Last, the Beginning and the End...."
+    → Psalms 136:5: "to him who by understanding made the heavens, for his loving kindness endures forever;..."
+    → Psalms 115:15: "Blessed are you by the LORD, who made heaven and earth...."
+    → Hebrews 3:4: "For every house is built by someone; but he who built all things is God...."
+    → Isaiah 40:28: "Haven’t you known? Haven’t you heard? The everlasting God, the LORD, the Creator of the ends of the ..."
+    → Exodus 20:11: "for in six days the LORD made heaven and earth, the sea, and all that is in them, and rested the sev..."
+    → Psalms 89:11: "The heavens are yours. The earth also is yours, the world and its fullness. You have founded them...."
+    → Acts 14:15: "“Men, why are you doing these things? We also are men of the same nature as you, and bring you good ..."
+    → John 1:1: "In the beginning was the Word, and the Word was with God, and the Word was God...."
+    → Hebrews 1:10: "And, “You, Lord, in the beginning, laid the foundation of the earth. The heavens are the works of yo..."
+    → 1 Chronicles 16:26: "For all the gods of the peoples are idols, but the LORD made the heavens...."
+    → Romans 1:19: "because that which is known of God is revealed in them, for God revealed it to them...."
+    → Acts 4:24: "When they heard it, they lifted up their voice to God with one accord and said, “O Lord, you are God..."
+    → Psalms 146:6: "who made heaven and earth, the sea, and all that is in them; who keeps truth forever;..."
+    → Revelation 14:7: "He said with a loud voice, “Fear the Lord, and give him glory, for the hour of his judgment has come..."
+    → Hebrews 1:2: "has at the end of these days spoken to us by his Son, whom he appointed heir of all things, through ..."
+    → Psalms 33:9: "For he spoke, and it was done. He commanded, and it stood firm...."
+    → Exodus 31:18: "When he finished speaking with him on Mount Sinai, he gave Moses the two tablets of the covenant, st..."
+    → Colossians 1:16: "For by him all things were created in the heavens and on the earth, visible things and invisible thi..."
+    → Zechariah 12:1: "A revelation of the LORD’s word concerning Israel: The LORD, who stretches out the heavens and lays ..."
+    → Psalms 148:4: "Praise him, you heavens of heavens, you waters that are above the heavens...."
+    → 1 Corinthians 8:6: "yet to us there is one God, the Father, of whom are all things, and we for him; and one Lord, Yeshua..."
+    → Psalms 8:3: "When I consider your heavens, the work of your fingers, the moon and the stars, which you have ordai..."
+    → Isaiah 40:26: "Lift up your eyes on high, and see who has created these, who brings out their army by number. He ca..."
+    → Psalms 104:24: "LORD, how many are your works! In wisdom, you have made them all. The earth is full of your riches...."
+    → Ecclesiastes 12:1: "Remember also your Creator in the days of your youth, before the evil days come, and the years draw ..."
+    → Psalms 90:2: "Before the mountains were born, before you had formed the earth and the world, even from everlasting..."
+    → Proverbs 3:19: "By wisdom the LORD founded the earth. By understanding, he established the heavens...."
+    → Jeremiah 32:17: "“Ah Lord GOD! Behold, you have made the heavens and the earth by your great power and by your outstr..."
+    → Matthew 11:25: "At that time, Yeshua answered, “I thank you, Father, Lord of heaven and earth, that you hid these th..."
+    → Psalms 124:8: "Our help is in the LORD’s name, who made heaven and earth...."
+    → Isaiah 37:16: "“LORD of Hosts, the God of Israel, who is enthroned among the cherubim, you are the God, even you al..."
+    → Isaiah 51:13: "Have you forgotten the LORD your Maker, who stretched out the heavens, and laid the foundations of t..."
+    → Psalms 104:30: "You send out your Spirit and they are created. You renew the face of the ground...."
+    → Job 38:4: "“Where were you when I laid the foundations of the earth? Declare, if you have understanding...."
+    → Psalms 102:25: "Of old, you laid the foundation of the earth. The heavens are the work of your hands...."
+    → 2 Peter 3:5: "For they willfully forget that there were heavens from of old, and an earth formed out of water and ..."
+    → Revelation 4:11: "“Worthy are you, our Lord and God, the Holy One, to receive the glory, the honor, and the power, for..."
+    → Isaiah 45:18: "For the LORD who created the heavens, the God who formed the earth and made it, who established it a..."
+
+  Psalm 23:1 (id=15045) has 23 cross-refs:
+    → Micah 5:4: "He shall stand, and shall shepherd in the strength of the LORD, in the majesty of the name of the LO..."
+    → John 10:14: "I am the good shepherd. I know my own, and I’m known by my own;..."
+    → Romans 8:32: "He who didn’t spare his own Son, but delivered him up for us all, how would he not also with him fre..."
+    → Ezekiel 34:23: "I will set up one shepherd over them, and he will feed them, even my servant David. He will feed the..."
+    → Luke 12:30: "For the nations of the world seek after all of these things, but your Father knows that you need the..."
+    → Jeremiah 31:10: "“Hear the LORD’s word, you nations, and declare it in the distant islands. Say, ‘He who scattered Is..."
+    → Jeremiah 23:3: "“I will gather the remnant of my flock out of all the countries where I have driven them, and will b..."
+    → 1 Peter 5:4: "When the chief Shepherd is revealed, you will receive the crown of glory that doesn’t fade away...."
+    → John 10:27: "My sheep hear my voice, and I know them, and they follow me...."
+    → 1 Peter 2:25: "For you were going astray like sheep; but now you have returned to the Shepherd and Overseer of your..."
+    → Philippians 4:19: "My God will supply every need of yours according to his riches in glory in Messiah Yeshua...."
+    → Revelation 7:17: "for the Lamb who is in the middle of the throne shepherds them and leads them to springs of life-giv..."
+    → Hebrews 13:5: "Be free from the love of money, content with such things as you have, for he has said, “I will in no..."
+    → Psalms 79:13: "So we, your people and sheep of your pasture, will give you thanks forever. We will praise you forev..."
+    → Psalms 84:11: "For the LORD God is a sun and a shield. The LORD will give grace and glory. He withholds no good thi..."
+    → Hebrews 13:20: "Now may the God of peace, who brought again from the dead the great shepherd of the sheep with the b..."
+    → Ezekiel 34:11: "“‘For the Lord GOD says: “Behold, I myself, even I, will search for my sheep, and will seek them out..."
+    → John 10:11: "“I am the good shepherd. The good shepherd lays down his life for the sheep...."
+    → Psalms 34:9: "Oh fear the LORD, you his holy ones, for there is no lack with those who fear him...."
+    → Micah 5:2: "But you, Bethlehem Ephrathah, being small among the clans of Judah, out of you one will come out to ..."
+    → Psalms 78:52: "But he led out his own people like sheep, and guided them in the wilderness like a flock...."
+    → Matthew 6:33: "But seek first God’s Kingdom and his righteousness; and all these things will be given to you as wel..."
+    → Isaiah 40:11: "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his b..."
+
+=== SPOT CHECK: Commentary on well-known verses ===
+
+  Genesis 1:1: "In the beginning, God created the heavens and the earth...."
+    [Matthew Henry] "Verses 1, 2 The first verse of the Bible gives us a satisfying and useful account of the origin of the earth and the heavens. The faith of humble Christians understands this better than the fancy of the most learned men. From what we see of heaven an..."
+
+  John 3:16: "For God so loved the world, that he gave his only born Son, that whoever believes in him should not ..."
+    ⚠ NO COMMENTARY
+
+  Romans 8:28: "We know that all things work together for good for those who love God, for those who are called acco..."
+    [Matthew Henry] "Verses 28–31 That is good for the saints which does their souls good. Every providence tends to the spiritual good of those that love God; in breaking them off from sin, bringing them nearer to God, weaning them from the world, and fitting them for h..."
+
+  Psalms 23:1: "A Psalm by David. The LORD is my shepherd; I shall lack nothing...."
+    ⚠ NO COMMENTARY
+
+  Ephesians 6:11: "Put on the whole armor of God, that you may be able to stand against the wiles of the devil...."
+    [Matthew Henry] "Verses 10–18 Spiritual strength and courage are needed for our spiritual warfare and suffering. Those who would prove themselves to have true grace, must aim at all grace; and put on the whole armour of God, which he prepares and bestows. The Christi..."
+
+  Matthew 5:3: "“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven...."
+    [Matthew Henry] "Verses 3–12 Our Saviour here gives eight characters of blessed people, which represent to us the principal graces of a Christian. 1. The poor in spirit are happy. These bring their minds to their condition, when it is a low condition. They are humble..."
+
+=== RANDOM CROSS-REF SAMPLE (10 random pairs for thematic review) ===
+
+  Ecclesiastes 5:14 → Haggai 2:16
+    FROM: "Those riches perish by misfortune, and if he has fathered a son, there is nothing in his hand."
+    TO:   "Through all that time, when one came to a heap of twenty measures, there were only ten. When one came to the wine vat to"
+
+  Psalms 22:2 → 1 Thessalonians 3:10
+    FROM: "My God, I cry in the daytime, but you don’t answer; in the night season, and am not silent."
+    TO:   "night and day praying exceedingly that we may see your face and may perfect that which is lacking in your faith?"
+
+  John 6:32 → Psalms 78:23
+    FROM: "Yeshua therefore said to them, “Most certainly, I tell you, it wasn’t Moses who gave you the bread out of heaven, but my"
+    TO:   "Yet he commanded the skies above, and opened the doors of heaven."
+
+  Job 12:21 → Psalms 107:40
+    FROM: "He pours contempt on princes, and loosens the belt of the strong."
+    TO:   "He pours contempt on princes, and causes them to wander in a trackless waste."
+
+  1 Samuel 7:6 → Nehemiah 9:1
+    FROM: "They gathered together to Mizpah, and drew water, and poured it out before the LORD, and fasted on that day, and said th"
+    TO:   "Now in the twenty-fourth day of this month the children of Israel were assembled with fasting, with sackcloth, and dirt "
+
+  Isaiah 27:1 → Revelation 19:21
+    FROM: "In that day, the LORD with his hard and great and strong sword will punish leviathan, the fleeing serpent, and leviathan"
+    TO:   "The rest were killed with the sword of him who sat on the horse, the sword which came out of his mouth. So all the birds"
+
+  Ezekiel 33:9 → Acts 13:46
+    FROM: "Nevertheless, if you warn the wicked of his way to turn from it, and he doesn’t turn from his way; he will die in his in"
+    TO:   "Paul and Barnabas spoke out boldly, and said, “It was necessary that God’s word should be spoken to you first. Since ind"
+
+  Luke 20:6 → Luke 7:26
+    FROM: "But if we say, ‘From men,’ all the people will stone us, for they are persuaded that Yochanan was a prophet.”"
+    TO:   "But what did you go out to see? A prophet? Yes, I tell you, and much more than a prophet."
+
+  Jeremiah 4:31 → Isaiah 21:3
+    FROM: "For I have heard a voice as of a woman in travail, the anguish as of her who gives birth to her first child, the voice o"
+    TO:   "Therefore my thighs are filled with anguish. Pains have seized me, like the pains of a woman in labor. I am in so much p"
+
+  Psalms 138:8 → Psalms 100:5
+    FROM: "The LORD will fulfill that which concerns me. Your loving kindness, LORD, endures forever. Don’t forsake the works of yo"
+    TO:   "For the LORD is good. His loving kindness endures forever, his faithfulness to all generations."
+
+=== AUDIT COMPLETE ===
