@@ -4,6 +4,7 @@ import { BookOpen, StickyNote, ChevronRight, PenTool } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PageWrapper } from "@/components/PageWrapper";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { ReaderSettingsMenu } from "@/components/ReaderSettingsMenu";
 import { useQuery } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 
@@ -56,6 +57,7 @@ export default function JournalPage() {
                     </h1>
                 </div>
                 <div className="flex items-center gap-2">
+                    <ReaderSettingsMenu />
                     <ThemeToggle />
                     <Link href="/read/genesis/1">
                         <Button variant="ghost" size="sm" className="gap-2">

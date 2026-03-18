@@ -9,9 +9,31 @@ import { Settings, Type, AlignLeft } from "lucide-react";
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { Slider } from "@/components/ui/slider";
+import { useAccessibility } from "@/hooks/useAccessibility";
+import { 
+    Maximize, 
+    Minimize, 
+    Eye, 
+    Contrast, 
+    ZoomIn,
+    Check
+} from "lucide-react";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select";
 
 export function ReaderSettingsMenu() {
     const { settings, updateSettings } = useReaderSettings();
+    const { 
+        settings: accSettings, 
+        updateSettings: updateAccSettings, 
+        isFullscreen, 
+        toggleFullscreen 
+    } = useAccessibility();
 
     // Map Slider values 1-5 to Size strings
     const sizeMap: Record<number, "sm" | "base" | "lg" | "xl" | "2xl"> = {
@@ -144,6 +166,81 @@ export function ReaderSettingsMenu() {
                             checked={settings.redLetters}
                             onCheckedChange={(checked: boolean) => updateSettings({ redLetters: checked })}
                         />
+                    </div>
+
+                    {/* ─── ACCESSIBILITY SECTION ────────────────────────── */}
+                    <div className="pt-4 border-t space-y-4">
+                        <h4 className="font-medium text-sm flex items-center gap-2">
+                            <Eye size={16} /> Accessibility
+                        </h4>
+
+                        {/* Fullscreen Toggle */}
+                        <div className="flex items-center justify-between">
+                            <div className="space-y-0.5">
+                                <Label>Fullscreen Mode</Label>
+                                <p className="text-xs text-muted-foreground">Immersive reading</p>
+                            </div>
+                            <Button 
+                                variant="outline" 
+                                size="sm" 
+                                onClick={toggleFullscreen}
+                                className="gap-2"
+                            >
+                                {isFullscreen ? <Minimize size={14} /> : <Maximize size={14} />}
+                                {isFullscreen ? "Exit" : "Enter"}
+                            </Button>
+                        </div>
+
+                        {/* High Contrast */}
+                        <div className="flex items-center justify-between">
+                            <div className="space-y-0.5">
+                                <Label className="flex items-center gap-2">
+                                    <Contrast size={14} /> High Contrast
+                                </Label>
+                                <p className="text-xs text-muted-foreground">OLED black & white</p>
+                            </div>
+                            <Switch
+                                checked={accSettings.highContrast}
+                                onCheckedChange={(checked: boolean) => updateAccSettings({ highContrast: checked })}
+                            />
+                        </div>
+
+                        {/* Color Blindness */}
+                        <div className="space-y-2">
+                            <Label className="text-xs">Color Blindness Mode</Label>
+                            <Select 
+                                value={accSettings.colorBlindMode} 
+                                onValueChange={(val: any) => updateAccSettings({ colorBlindMode: val })}
+                            >
+                                <SelectTrigger className="w-full h-8 text-xs">
+                                    <SelectValue placeholder="Select mode" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="none">None (Default)</SelectItem>
+                                    <SelectItem value="protanopia">Protanopia (Red blind)</SelectItem>
+                                    <SelectItem value="deuteranopia">Deuteranopia (Green blind)</SelectItem>
+                                    <SelectItem value="tritanopia">Tritanopia (Blue blind)</SelectItem>
+                                    <SelectItem value="grayscale">Grayscale</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        {/* Interface Zoom */}
+                        <div className="space-y-3">
+                            <div className="flex justify-between">
+                                <Label className="flex items-center gap-2">
+                                    <ZoomIn size={14} /> Interface Zoom
+                                </Label>
+                                <span className="text-xs text-muted-foreground">{accSettings.zoomLevel}%</span>
+                            </div>
+                            <Slider
+                                defaultValue={[accSettings.zoomLevel]}
+                                max={150}
+                                min={100}
+                                step={10}
+                                onValueChange={(val) => updateAccSettings({ zoomLevel: val[0] })}
+                            />
+                        </div>
                     </div>
 
                 </div>

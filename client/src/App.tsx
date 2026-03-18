@@ -10,6 +10,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { WishlistProvider } from "@/contexts/WishlistContext";
 import { useCartSync } from "@/hooks/useCartSync";
 import CartDrawer from "@/components/cart/CartDrawer";
+import { AccessibilityProvider } from "@/hooks/useAccessibility";
+import { AccessibilityFilters } from "@/components/AccessibilityFilters";
 
 // Existing Pages
 import HomePage from "@/pages/HomePage";
@@ -107,6 +109,7 @@ function AppContent() {
                 {/* Catch-All */}
                 <RouterRoute path="*" element={<NotFound />} />
             </Routes>
+            <AccessibilityFilters />
         </>
     );
 }
@@ -132,11 +135,13 @@ export default function App() {
 
     return (
         <TooltipProvider>
-            <WishlistProvider>
-                <HashRouter>
-                    <AppContent />
-                </HashRouter>
-            </WishlistProvider>
+            <AccessibilityProvider>
+                <WishlistProvider>
+                    <HashRouter>
+                        <AppContent />
+                    </HashRouter>
+                </WishlistProvider>
+            </AccessibilityProvider>
         </TooltipProvider>
     );
 }
