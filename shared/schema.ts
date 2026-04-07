@@ -56,6 +56,9 @@ export const verses = sqliteTable("verses", {
     // Multi-language
     textKorean: text("text_korean"),         // Korean
     textChinese: text("text_chinese"),       // Chinese (Simplified)
+    textSpanish: text("text_spanish"),       // Spanish
+    textArabic: text("text_arabic"),         // Arabic
+    textPortuguese: text("text_portuguese"), // Portuguese
 
     // Strong's Numbers (comma-separated list)
     strongsNumbers: text("strongs_numbers"),

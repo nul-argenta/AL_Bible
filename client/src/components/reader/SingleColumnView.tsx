@@ -14,7 +14,8 @@ interface SingleColumnViewProps {
     chapter: number;
     book: string;
     displayTitle: string;
-    version: "web" | "kjv" | "korean" | "interlinear";
+    version: "web" | "kjv" | "korean" | "chinese" | "interlinear";
+
     selectedVerseId: number | null;
     highlightMap: Map<number, HighlightEntry>;
     noteMap: Map<number, string>;
@@ -134,8 +135,13 @@ export function SingleColumnView({
                                                                 ))}
                                                             </span>
                                                             {v.text_korean && (
-                                                                <span className="font-sans font-medium text-[14px] leading-relaxed text-muted-foreground/90 tracking-wide mt-1 mb-2 pl-2 border-l-2 border-primary/30">
+                                                                <span className="font-sans font-medium text-[14px] leading-relaxed text-muted-foreground/90 tracking-wide mt-1 pl-2 border-l-2 border-primary/30">
                                                                     {v.text_korean}
+                                                                </span>
+                                                            )}
+                                                            {v.text_chinese && (
+                                                                <span className="font-sans font-medium text-[14px] leading-relaxed text-muted-foreground/90 tracking-wide mt-1 mb-2 pl-2 border-l-2 border-secondary/30">
+                                                                    {v.text_chinese}
                                                                 </span>
                                                             )}
                                                         </span>
@@ -146,7 +152,8 @@ export function SingleColumnView({
                                                 }
                                             }
 
-                                            const text = (version === "web" ? v.text_web : version === "kjv" ? v.text_kjv : version === "korean" ? v.text_korean : v.text_primary) || v.text_primary;
+                                            const text = (version === "web" ? v.text_web : version === "kjv" ? v.text_kjv : version === "korean" ? v.text_korean : version === "chinese" ? v.text_chinese : v.text_primary) || v.text_primary;
+
 
                                             // Red Letter Rendering Logic
                                             // This is a naive split based on quotation marks. Real "Words of Christ" 

@@ -31,7 +31,8 @@ import { SingleColumnView } from "@/components/reader/SingleColumnView";
 import { ParallelView } from "@/components/reader/ParallelView";
 import { ComparisonView } from "@/components/reader/ComparisonView";
 
-type Version = "web" | "kjv" | "korean" | "both" | "interlinear" | "comparison";
+type Version = "web" | "kjv" | "korean" | "chinese" | "both" | "interlinear" | "comparison";
+
 
 export default function ReaderPage() {
     const params = useParams<{ book?: string; chapter?: string }>();
@@ -110,10 +111,11 @@ export default function ReaderPage() {
     const textToPlay = useMemo(() => {
         if (!verses) return "";
         return verses.map(v => {
-            const text = version === "kjv" ? v.text_kjv : v.text_web;
+            const text = version === "kjv" ? v.text_kjv : version === "korean" ? v.text_korean : version === "chinese" ? v.text_chinese : v.text_web;
             return text;
         }).join(" ");
     }, [verses, version]);
+
 
     // Filter verses based on URL param
     const displayedVerses = useMemo(() => {
@@ -349,6 +351,10 @@ export default function ReaderPage() {
                             <DropdownMenuItem onClick={() => setVersion("korean")} className="justify-between">
                                 KRV (Korean) {version === "korean" && "✓"}
                             </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => setVersion("chinese")} className="justify-between">
+                                CUV (Chinese) {version === "chinese" && "✓"}
+                            </DropdownMenuItem>
+
                             <DropdownMenuSeparator />
                             <DropdownMenuItem onClick={() => setVersion("both")} className="justify-between">
                                 Parallel View {version === "both" && "✓"}
@@ -489,7 +495,8 @@ export default function ReaderPage() {
                                 chapter={chapter}
                                 book={book}
                                 displayTitle={displayTitle}
-                                version={version as "web" | "kjv" | "korean" | "interlinear"}
+                                version={version as "web" | "kjv" | "korean" | "chinese" | "interlinear"}
+
                                 selectedVerseId={selectedVerse?.id || null}
                                 highlightMap={highlightMap}
                                 noteMap={noteMap}

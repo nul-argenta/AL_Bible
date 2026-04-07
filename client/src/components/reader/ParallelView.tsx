@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "wouter";
-import { ChevronLeft, ChevronRight, Check, StickyNote, Star } from "lucide-react";
+import { ChevronLeft, ChevronRight, Check, StickyNote, Star, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Verse } from "@/lib/types";
 import { getHighlightStyle, getHighlightLabel } from "@/hooks/useHighlightsAndNotes";
@@ -42,6 +43,8 @@ export function ParallelView({
     onVerseRightClick,
     onToggleRead,
 }: ParallelViewProps) {
+    const [secondLang, setSecondLang] = useState<"korean" | "chinese">("chinese");
+
     return (
         <div className="flex flex-col gap-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -96,27 +99,42 @@ export function ParallelView({
                     </div>
                 </div>
 
-                {/* KRV Column (Korean) */}
+                {/* Secondary Column (Korean/Chinese Toggle) */}
                 <div className="bg-card rounded-xl shadow-lg border border-border/40 overflow-hidden">
-                    <div className="px-6 py-4 border-b border-border/30 bg-muted/20">
-                        <h3 className="font-serif text-lg font-bold text-foreground">{displayTitle} {chapter}</h3>
-                        <span className="text-xs font-bold tracking-widest text-muted-foreground uppercase">Korean Revised Version (KRV)</span>
+                    <div className="px-6 py-4 border-b border-border/30 bg-muted/20 flex justify-between items-center">
+                        <div>
+                            <h3 className="font-serif text-lg font-bold text-foreground">{displayTitle} {chapter}</h3>
+                            <span className="text-xs font-bold tracking-widest text-muted-foreground uppercase">
+                                {secondLang === "korean" ? "Korean (KRV)" : "Chinese (Union)"}
+                            </span>
+                        </div>
+                        <Button 
+                            variant="ghost" 
+                            size="sm" 
+                            className="h-8 gap-2 text-primary" 
+                            onClick={() => setSecondLang(prev => prev === "korean" ? "chinese" : "korean")}
+                        >
+                            <Languages size={14} />
+                            <span className="text-[10px] uppercase font-bold tracking-tighter">Switch to {secondLang === "korean" ? "Chinese" : "Korean"}</span>
+                        </Button>
                     </div>
                     <div className="px-6 py-6 space-y-3">
                         {verses.map((v) => {
                             const isSelected = selectedVerseId === v.id;
                             const hlEntry = highlightMap.get(v.id);
                             const hlStyle = hlEntry ? getHighlightStyle(hlEntry.color) : null;
+                            const text = secondLang === "korean" ? v.text_korean : v.text_chinese;
+                            
                             return (
                                 <div
-                                    key={`krv-${v.id}`}
+                                    key={`second-${v.id}`}
                                     className={`flex gap-3 p-2.5 rounded-lg transition-colors cursor-pointer ${isSelected ? "bg-primary/10 ring-1 ring-primary/20" : hlStyle ? hlStyle.bg : "hover:bg-muted/40"}`}
                                     onClick={() => onVerseClick(v)}
                                     onContextMenu={(e) => onVerseRightClick(e, v)}
                                 >
                                     <span className="verse-number shrink-0 w-6 text-right pt-0.5">{v.verse}</span>
                                     <span className={`font-sans font-medium text-[15px] leading-[1.8] text-foreground/90 tracking-wide`}>
-                                        {v.text_korean || <span className="text-muted-foreground italic">Translation unavailable</span>}
+                                        {text || <span className="text-muted-foreground italic text-xs">Translation unavailable</span>}
                                     </span>
                                 </div>
                             );
@@ -124,6 +142,7 @@ export function ParallelView({
                     </div>
                 </div>
             </div>
+
 
             {/* Parallel Footer Nav */}
             <div className="bg-card rounded-xl shadow-lg border border-border/40 overflow-hidden">

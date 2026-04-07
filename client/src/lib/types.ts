@@ -20,6 +20,11 @@ export interface Verse {
     text_hebrew: string | null;
     text_greek: string | null;
     text_korean: string | null;
+    text_chinese: string | null;
+    text_spanish: string | null;
+    text_arabic: string | null;
+    text_portuguese: string | null;
     strongs_numbers: string | null;
+
     interlinear_data: string | null;
 }
