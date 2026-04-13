@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback, useRef, lazy, Suspense } from "react";
 import { useParams, Link, useLocation, useSearch } from "wouter";
-import { BookOpen, ChevronLeft, ChevronRight, Share2, AlignLeft, Columns, X, Filter, StickyNote, Search, Check, PieChart, Headphones, Clock, Star, ArrowLeft } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, Share2, AlignLeft, Columns, X, Filter, StickyNote, Search, Check, PieChart, Headphones, Clock, Star, ArrowLeft, Maximize, Minimize } from "lucide-react";
 import type { Verse } from "@/lib/types";
 import { AT_BIBLE_BOOKS } from "@/lib/bibleData";
 import { BibleSelector, parseVerseFilter } from "@/components/BibleSelector";
@@ -88,6 +88,28 @@ export default function ReaderPage() {
     } | null>(null);
     const [searchOpen, setSearchOpen] = useState(false);
     const [audioOpen, setAudioOpen] = useState(false);
+    const [isFullscreen, setIsFullscreen] = useState(false);
+
+    // Watch for native fullscreen changes (e.g. user pressed Esc)
+    useEffect(() => {
+        const handleFullscreenChange = () => {
+            setIsFullscreen(!!document.fullscreenElement);
+        };
+        document.addEventListener("fullscreenchange", handleFullscreenChange);
+        return () => document.removeEventListener("fullscreenchange", handleFullscreenChange);
+    }, []);
+
+    const toggleFullscreen = useCallback(async () => {
+        try {
+            if (!document.fullscreenElement) {
+                await document.documentElement.requestFullscreen();
+            } else if (document.exitFullscreen) {
+                await document.exitFullscreen();
+            }
+        } catch (err) {
+            console.warn(`Error toggling fullscreen:`, err);
+        }
+    }, []);
 
     // Cross-reference back-navigation
     const [backRef, setBackRef] = useState<{ path: string; label: string } | null>(null);
@@ -405,6 +427,16 @@ export default function ReaderPage() {
                         title="Listen to Chapter"
                     >
                         <Headphones size={16} />
+                    </Button>
+
+                    <Button 
+                        variant="ghost" 
+                        size="icon" 
+                        className="h-9 w-9 text-muted-foreground" 
+                        onClick={toggleFullscreen} 
+                        title={isFullscreen ? "Exit Fullscreen" : "Fullscreen Reader"}
+                    >
+                        {isFullscreen ? <Minimize size={16} /> : <Maximize size={16} />}
                     </Button>
 
                     <ReaderSettingsMenu />
